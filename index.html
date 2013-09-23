@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Jeet Framework</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/custom.css">
+        <!--[if lt IE 9]><script src="js/vendor/selectivizr-1.0.2.min.js"></script><![endif]-->
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 9]>
+            <div class="chromeframe"><p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true" target="_blank">activate Google Chrome Frame</a> to improve your experience.</p></div>
+        <![endif]-->
+        
+        
+        <header id="top">
+            <div>
+                <a href="/" class="logo"><img src="img/jeet_logo.png" alt="Jeet 3"></a>
+                <nav>
+                    <a href="/">Grid</a>
+                    <a href="/ui">UI</a>
+                    <a href="/download">Download</a>
+                    <a href="http://github.com/CorySimmons/jeet">Github</a>
+                </nav>
+            </div>
+        </header>
+        
+        <section class="basics">
+            
+            <article class="basic">
+                <div class="code">
+                    <pre class="html">
+&lt;aside&gt;Sidebar&lt;/aside&gt;
+&lt;article&gt;Article&lt;/article&gt;</pre>
+                    <pre class="styl">
+aside
+    col(1/3)
+article
+    col(2/3)</pre>
+                </div>
+                <div class="result">
+                    <header>
+                        <h4>Basic</h4>
+                        <p>
+                            It's that easy. But look carefully at the gutter between these two elements and, say, the gutters between the navigation buttons. <a href="http://youtu.be/ueZ6tvqhk8U?t=16s" target="_blank">One of these things is not like the other</a>! It's because we're using percentage-based gutters. So 2% of a 1000px container is going to be bigger than 2% of a 100px container. It works, but it effectively defeats the whole purpose of using grids since they're meant to be uniform.
+                        </p>
+                        <p>
+                            How can we fix this?
+                        </p>
+                    </header>
+                    <div class="demo">
+                        <aside>Sidebar</aside>
+                        <article>Article</article>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="nested">
+                <div class="code">
+                    <pre class="html">
+&lt;aside&gt;Sidebar&lt;/aside&gt;
+&lt;article&gt;Article&lt;/article&gt;</pre>
+                    <pre class="styl">
+aside
+    col(1/3 1/2)
+article
+    col(2/3 1/2)</pre>
+                </div>
+                <div class="result">
+                    <header>
+                        <h4>Nested</h4>
+                        <p>
+                            If we pass the ratio of the parent container (<code>&lt;div class=&quot;result&quot;&gt;</code> is the container of these elements and it's set to <code>col(1/2)</code> - go ahead and inspect) then we end up with consistently sized nested gutters.
+                        </p>
+                        <p>
+                            You need to do this with every parent that is using <code>col()</code> or <code>span()</code> so if you're doing some crazy-deep nesting, you may end up with something that looks like this: <code>col(1/2 1/3 1/2 1/4)</code>. Don't be scared. Just step through your code and you'll get the hang of it. Then you'll be the coolest kid on the block with your nice, percentage-based, consistent, gutters.
+                        </p>
+                        <p>
+                            The only other grid that attempts to do this correctly is Scott Kellum's <a href="http://singularity.gs" target="_blank">Singularity.gs</a>. Singularity's syntax isn't my cup of tea, but it really is a brilliant system and the only other system that provides incredibly flexible ratio/percentage-based columns while maintaining a consistent gutter. 
+                        </p>
+                        <p>
+                            Props aside, we've worked hard to make Jeet 3's syntax very intuitive.
+                        </p>
+                    </header>
+                    <div class="demo">
+                        <aside>Sidebar</aside>
+                        <article>Article</article>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="spans">
+                <div class="code">
+                    <pre class="html">
+&lt;nav&gt;
+    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+&lt;/nav&gt;</pre>
+                    <pre class="styl">
+nav a
+    span(1/3)</pre>
+                </div>
+                <div class="result">
+                    <header>
+                        <h4>Spans</h4>
+                        <p>
+                            A lot of frameworks make you choose between columns or spans by setting a global gutter variable. Jeet understands there are different parts to every website that require a different tool. So, you want a horizontal navigation list with no gutters between each item?
+                        </p>
+                    </header>
+                    <div class="demo">
+                        <nav>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                        </nav>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="offsets">
+                <div class="code">
+                    <pre class="html">
+&lt;a href=&quot;#&quot; class=&quot;logo&quot;&gt;Logo&lt;/a&gt;
+&lt;nav&gt;
+    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+&lt;/nav&gt;</pre>
+                    <pre class="styl">
+.logo
+    col(1/4 1/2)
+nav
+    col(1/2 1/2, offset: 1/4)</pre>
+                </div>
+                <div class="result">
+                    <header>
+                        <h4>Offsets</h4>
+                        <p>
+                            Want to put a bit more space between items? Leave bit off of your <code>col()</code> (or <code>span()</code>) elements, then pass the <code>offset</code> as a param to one of your elements.
+                        </p>
+                        <p>
+                            You can also use a negative value for your offset to have it offset in the opposite direction.
+                        </p>
+                    </header>
+                    <div class="demo">
+                        <a href="#" class="logo">Logo</a>
+                        <nav>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                        </nav>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="ordering">
+                <div class="code">
+                    <pre class="html">
+&lt;article&gt;Article&lt;/article&gt;
+&lt;nav&gt;
+    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+&lt;/nav&gt;</pre>
+                    <pre class="styl">
+article
+    col(3/5 1/2)
+nav
+    col(2/5 1/2)
+
+// Mobile
+bp()
+article
+    shift(2/5 1/2)
+nav
+    shift(-3/5 1/2)
+endbp()
+</pre>
+                </div>
+                <div class="result">
+                    <header>
+                        <h4>Source Ordering</h4>
+                        <p>
+                            We use a mixin called <code>shift()</code> to re-position content. Look at the below example and then resize your browser to see <code>&lt;article&gt;</code> and <code>&lt;nav&gt;</code> switch places.
+                        </p>
+                        <p>
+                            If you end up deciding you don't want things to be shifted, you can use the <code>unshift()</code> mixin which accepts no params to... well... "unshift" elements.
+                        </p>
+                    </header>
+                    <div class="demo">
+                        <article>Article</article>
+                        <nav>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                        </nav>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="centering">
+                <div class="code">
+                    <pre class="html">
+&lt;header&gt;
+    &lt;div&gt;
+        Full-width Background / Centered Content
+    &lt;/div&gt;
+&lt;/header&gt;</pre>
+                    <pre class="styl">
+header
+    background rgba(#000, .15)
+    > div
+        center(250px)
+</pre>
+                </div>
+                <div class="result">
+                    <header>
+                        <h4>Centering</h4>
+                        <p>
+                            Jeet comes with the <code>center()</code> mixin which accepts a max-width as it's first argument, and left/right padding as it's second. You can use it on anything, but it works best on wrapper elements. It's simple, effective, and useful.
+                        </p>
+                        <p>
+                            One of my favorite uses for <code>center()</code> is to set a full-width background, then make the immediate child <code>&lt;div&gt;</code> of that element <code>center()</code>'d to center content.
+                        </p>
+                    </header>
+                    <div class="demo">
+                        <header>
+                            <div>
+                                Full-width Background / Centered Content
+                            </div>
+                        </header>
+                    </div>
+                </div>
+            </article>
+            
+        </section>
+        
+        
+        <!--[if lt IE 9]>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.0.3.min.js"><\/script>')</script>
+        <!--<![endif]-->
+        <script src="js/vendor/jquery.placeholder.min.js"></script>
+        <script>
+            $(function(){
+                $('input, textarea').placeholder();
+                $('.chromeframe').on('click', function() {
+                    $(this).slideUp('fast');
+                });
+            });
+        </script>
+    </body>
+</html>
