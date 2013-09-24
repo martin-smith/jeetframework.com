@@ -21,9 +21,9 @@
         
         <header id="top">
             <div>
-                <a href="http://localhost/Repos/Github/jeetframework.com/" class="logo"><img src="img/jeet_logo.png" alt="Jeet 3"></a>
+                <a href="/" class="logo"><img src="img/jeet_logo.png" alt="Jeet 3"></a>
                 <nav>
-                    <a href="http://localhost/Repos/Github/jeetframework.com/demos">Grid</a>
+                    <a href="/demos">Demos</a>
                     <a href="http://roots.cx/axis/">Axis CSS</a>
                     <a href="http://github.com/CorySimmons/jeet">Install</a>
                     <a href="https://github.com/CorySimmons/jeet/archive/master.zip">Download</a>
