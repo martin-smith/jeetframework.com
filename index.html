@@ -24,7 +24,7 @@
                 <a href="/" class="logo"><img src="img/jeet_logo.png" alt="Jeet 3"></a>
                 <nav>
                     <a href="/">Grid</a>
-                    <a href="http://roots.cx/axis/">Axis UI</a>
+                    <a href="http://roots.cx/axis/">Axis CSS</a>
                     <a href="https://github.com/CorySimmons/jeet/archive/master.zip">Download</a>
                     <a href="http://github.com/CorySimmons/jeet">Github</a>
                 </nav>
@@ -46,6 +46,7 @@
                     <a href="#aligning">Aligning</a>
                     <a href="#mobile">Mobile</a>
                     <a href="#stack">Stack</a>
+                    <a href="#ui">UI</a>
                 </nav>
             </aside>
             
@@ -450,10 +451,83 @@ endbp()
                     </div>
                 </article>
                 
+                <article class="ui" id="ui">
+                    <div class="code">
+                        <pre class="html">
+&lt;a href=&quot;#&quot;&gt;Button&lt;/a&gt;</pre>
+                        <pre class="styl">
+a
+    button(red)
+</pre>
+                    </div>
+                    <div class="result">
+                        <header>
+                            <h4>Flexible/Beautiful UI with Axis CSS</h4>
+                            <p>
+                                We wanted to focus on Jeet being a grid framework but we couldn't find a nice CSS library, and then we stumbled upon the gorgeous and incredibly powerful <a href="http://roots.cx/axis">Axis CSS</a> library.
+                            </p>
+                            <p>
+                                Aside from offering a plethora of shortcut mixins that make writing Stylus seem more like a programming language, Axis offers typography, vertical-rhythm, beautiful gradients, forms, buttons, animation, and so much more. Jeet's friend and Roots/Axis creator, <a href="http://jenius.me">Jeff Escalante</a>, has a nice <a href="http://www.youtube.com/watch?v=Kv6H6mMDeuA">screencast</a> giving you an overview of some of the things Axis can do. 
+                            </p>
+                            <p>
+                                As an example of some of the power Axis offers, most CSS frameworks like Bootstrap &amp; Co. will assume you want to use 5 button colors. Axis will let you pick <b>any</b> color you can imagine and pop out a beautiful button. If you're not into these incredibly subtle/beautiful gradient buttons, then use <code>simple-button()</code> for flat buttons.
+                            </p>
+                        </header>
+                        <div class="demo">
+                            <a href="#">Button</a>
+                        </div>
+                    </div>
+                </article>
+                
             </section>
             
         </div>
         <!-- end .page -->
+        
+        <footer>
+            <div>
+                <section>
+                    <ul>
+                        <li>
+                            <b>Creator/curator/docs</b>
+                            <p>
+                                TutsPlus and Packt Publishing author <a href="https://twitter.com/ccccory">Cory Simmons</a>
+                            </p>
+                        </li>
+                        <li>
+                            <b>Ratio Grid</b>
+                            <p>
+                                L.A. Noire and Saint's Row IV animator <a href="http://monkeez.com">Mitchell Coote</a>
+                            </p>
+                        </li>
+                        <li>
+                            <b>Axis CSS and Roots Integration</b>
+                            <p>
+                                Roots/Axis creator/curator <a href="https://twitter.com/jescalan">Jeff Escalante</a>
+                            </p>
+                        </li>
+                        <li>
+                            <b>NPM Package</b>
+                            <p>
+                                TutsPlus and Packt Publishing author <a href="https://twitter.com/GabrielManricks">Gabriel Manricks</a> 
+                            </p>
+                        </li>
+                        <li>
+                            <b>SCSS/SASS Port</b>
+                            <p>
+                                All around helpful guy <a href="https://twitter.com/ozamorowski">Oskar Zamorowski</a>
+                            </p>
+                        </li>
+                        <li>
+                            <b>Motivation</b>
+                            <p>
+                                The wonderful community behind Jeet really helps motivate us to constantly make it better than ever.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </footer>
         
         <a href="#" class="back_to_top">Back to Top</a>
         
