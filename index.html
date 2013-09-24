@@ -529,7 +529,7 @@ a
             </div>
         </footer>
         
-        <a href="#" class="back_to_top">Back to Top</a>
+        <a href="#top" class="back_to_top">Back to Top</a>
         
         <!--[if lt IE 9]>
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -555,6 +555,10 @@ a
                     } else {
                         $('.back_to_top').fadeOut('fast');
                     }
+                });
+                
+                $('a[href="#"]').click(function(e) {
+                    e.preventDefault();
                 });
                 
             });
