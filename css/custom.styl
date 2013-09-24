@@ -30,7 +30,7 @@ header#top
         z-index 1
         a
             col(1/4 1/2)
-            button(yellow)
+            simple-button(yellow)
             padding-left 0
             padding-right 0
 .page
@@ -40,11 +40,24 @@ header#top
     shift(7/8)
     padding-top 20px
     a
-        button(white)
+        simple-button(#eee)
         display block 
-        margin-bottom 10px
         padding-left 0
         padding-right 0
+        border-radius 0
+        margin-bottom 0 
+        padding-top 13px
+        padding-bottom 13px
+        border-bottom 1px solid darken(#eee, 3%)
+        border-top 1px solid lighten(#eee, 30%)
+        &:first-child
+            border-top-left-radius 3px
+            border-top-right-radius 3px
+            border-top none
+        &:last-child
+            border-bottom-left-radius 3px
+            border-bottom-right-radius 3px
+            border-bottom none 
 section.basics
     col(7/8)
     shift(-1/8)
@@ -235,7 +248,7 @@ code
 
 .back_to_top
     fixed bottom 5px right 5px
-    button(yellow)
+    simple-button(yellow)
     display none 
 
 // Mobile
@@ -269,19 +282,6 @@ section.basics > article.ordering nav
     stack()
 section.basics > article .code
     stack(align: left)
-#sidebar
-    a
-        border-radius 0
-        margin-bottom 0 
-        padding-top 13px
-        padding-bottom 13px
-        border-bottom none
-        &:first-child
-            border-top-left-radius 3px
-            border-top-right-radius 3px
-        &:last-child
-            border-bottom-left-radius 3px
-            border-bottom-right-radius 3px
 section.basics > article.cycle .block
     col(1/2 1.5/2.5 7/8, cycle: 2, uncycle: 4)
 footer
