@@ -462,7 +462,7 @@ a
 &lt;/div&gt;</pre>
                         <pre class="styl">
 .hamburger
-    hamburger(bg: red, style: flat, t: 7px, r: 0, menu: white)
+    hamburger(bg: red, style: flat, menu: white, bp: 1200px)
 </pre>
                     </div>
                     <div class="result">
