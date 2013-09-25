@@ -1,6 +1,6 @@
 <?
     
-    // $live = true;
+    $live = true;
     
     if ($live == false) {
         $p = 'http://localhost/Repos/Github/jeetframework.com';
