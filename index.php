@@ -14,6 +14,7 @@
                     <a href="#mobile">Mobile</a>
                     <a href="#stack">Stack</a>
                     <a href="#ui">UI</a>
+                    <a href="#hamburger">Hamburger</a>
                 </nav>
             </aside>
             
@@ -449,7 +450,7 @@ a
                     </div>
                 </article>
                 
-                <article class="hamburgers" id="hamburgers">
+                <article class="hamburgers" id="hamburger">
                     <div class="code">
                         <pre class="html">
 &lt;div class=&quot;hamburger&quot;&gt;
@@ -462,7 +463,7 @@ a
 &lt;/div&gt;</pre>
                         <pre class="styl">
 .hamburger
-    hamburger(bg: red, style: flat, menu: white, bp: 1200px)
+    hamburger(bg: red, style: flat, bp: 1200px)
 </pre>
                     </div>
                     <div class="result">
@@ -475,13 +476,18 @@ a
                                 What's going on? First we're using a non-descript wrapping element (this doesn't have to be <code>.hamburger</code> class since we're just using it as an element to dump our <code>hamburger()</code> mixin). Next we create a <code>&lt;button&gt;</code> with whatever text you want (for accessibility purposes). Finally, we make a normal <code>&lt;nav&gt;</code> element with our links inside.
                             </p>
                             <p>
-                                Ok, so that's some pretty clean/semantic markup. Nice! Now let's customize our button, background colors, etc. within the <code>hamburger()</code> mixin. We can use named parameters in Stylus mixins, so since there are a few of them, we're doing that. <code>t</code> and <code>r</code> are shorthand for "top" and "right".
+                                Ok, so that's some pretty clean/semantic markup. Nice! Now let's customize our button, background colors, etc. within the <code>hamburger()</code> mixin. We can use named parameters in Stylus mixins, so since there are a few of them, we're doing that. Here are all the params:
                             </p>
                             <p>
-                                When the user goes to your standard mobile size, the menu will collapse into a hamburger style menu.
+                                <code>
+                                    hamburger(bg = #222, style = normal[flat], align = right[left], top = 0, radius = 3px, menu = white[black], bp = 705px)
+                                </code>
                             </p>
                             <p>
-                                <b>Note:</b> I made this in like 5 minutes so it's not awesome, but I definitely see the value in tricking this out, so over the next few weeks the markup/syntax will change a lot so be sure to check this doc again if it's showing up all weird. We're planning on adding nested navigation, whether you want borders at the bottom of your links, left/right alignment support so you can have your hamburger menu on the left of your page instead of the right, and maybe other stuff. But mostly nested support.
+                                <code>bp</code> stands for breakpoint. This is the width at which your menu will collapse.
+                            </p>
+                            <p>
+                                <b>Note:</b> Over the next few weeks we'll be adding support for nested menus and a smooth <code>slideToggle</code> transition. This may change the syntax, so if you create a new project and your hamburger menus aren't working as expected, check back here to make sure you're using the current syntax.
                             </p>
                         </header>
                         <div class="demo">
