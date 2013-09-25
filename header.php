@@ -1,3 +1,14 @@
+<?
+    
+    // $live = true;
+    
+    if ($live == false) {
+        $p = 'http://localhost/Repos/Github/jeetframework.com';
+    } else {
+        $p = '';
+    }
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -21,9 +32,9 @@
         
         <header id="top">
             <div>
-                <a href="/" class="logo"><img src="img/jeet_logo.png" alt="Jeet 3"></a>
+                <a href="<? echo $p; ?>/" class="logo"><img src="img/jeet_logo.png" alt="Jeet 3"></a>
                 <nav>
-                    <a href="/demos">Demos</a>
+                    <a href="<? echo $p; ?>/demos">Demos</a>
                     <a href="http://roots.cx/axis/">Axis CSS</a>
                     <a href="http://github.com/CorySimmons/jeet">Install</a>
                     <a href="https://github.com/CorySimmons/jeet/archive/master.zip">Download</a>

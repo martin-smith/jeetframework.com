@@ -63,6 +63,9 @@
                 $('.chromeframe').on('click', function() {
                     $(this).slideUp('fast');
                 });
+                $('.hamburger > button').click(function() {
+                    $('.hamburger > nav').slideToggle();
+                });
                 
                 // Fade in/out top button
                 $(window).scroll(function() {

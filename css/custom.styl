@@ -24,7 +24,7 @@ header#top
         center(1300px, 20px)
         padding-top 20px
         padding-bottom 20px
-        align(v)
+        // align(v)
     a.logo
         col(1.5/8)
         animation tada 300ms
@@ -32,6 +32,7 @@ header#top
         col(1/2, offset: 2.5/8)
         position relative
         z-index 1
+        margin-top 25px
         a
             col(1/4 1/2)
             simple-button(yellow)
@@ -201,6 +202,16 @@ section.basics
             .demo
                 a
                     button(red)
+        &.hamburgers
+            .hamburger
+                background none
+                hamburger(bg: red, style: flat, t: 0, r: 0, menu: white)
+            nav
+                background none
+                a
+                    simple-button(#eee)
+                    col(1/3 1.5/2.5 7/8)
+                    
 footer
     background #eee
     margin-top 20px
@@ -260,22 +271,27 @@ code
 
 // Demos page
 .demos
+    > header
+        text-align center
+        center(700px)
+        margin-top 20px
+        padding-bottom 20px
+        border-bottom 1px solid #eee
+        margin-bottom 40px
+        h1
+            fs(40px)
+            bold()
+            letter-spacing -.035em
+            color #222
+            margin-bottom 10px
+        p
+            line-height 22px
+            margin-bottom 20px
     figure
         animation fadeInDown 400ms
         col(1/3, cycle:3)
         figure(darken(#eee, 10%))
         margin-bottom 20px
-        a
-            text-decoration none
-            color #333 
-            display block
-            padding 0 10px 10px
-            border 1px solid #eee
-            border-radius 3px
-            text-shadow 0 1px 0 #fff
-            &:hover
-                color #111
-                background lighten(#eee, 90%) 
         figcaption
             normal()
             text-align left
@@ -283,12 +299,29 @@ code
             bold()
             fs(14px)
             margin-bottom 5px
+            a
+                color #222
+                text-decoration none 
         p
             fs(12px)
             line-height 18px 
             color lighten(#555, 20%)
         img
-            background #fff 
+            background #fff
+            margin-bottom 10px
+        nav
+            @extend $cf
+            a
+                span(1/3)
+                simple-button(yellow)
+                &:first-child
+                    border-top-right-radius 0
+                    border-bottom-right-radius 0
+                &:nth-child(2)
+                    border-radius 0
+                &:last-child
+                    border-top-left-radius 0
+                    border-bottom-left-radius 0
 
 
 

@@ -331,6 +331,9 @@ div
                         <header>
                             <h4>Vertical, Horizontal, and Both Centering with Flexbox</h4>
                             <p>
+                                <b>Caution!</b> Flexbox is experimental as crap. Apparently this isn't just broken in oldIE, it's broken in FF. We're working on fixing this, but for now don't use it.
+                            </p>
+                            <p>
                                 Vertically centering sucks. It's always sucked. One of the best things about Flexbox is it makes this easy.
                             </p>
                             <p>
@@ -442,6 +445,54 @@ a
                         </header>
                         <div class="demo">
                             <a href="#">Button</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="hamburgers" id="hamburgers">
+                    <div class="code">
+                        <pre class="html">
+&lt;div class=&quot;hamburger&quot;&gt;
+    &lt;button&gt;Menu&lt;/button&gt;
+    &lt;nav&gt;
+        &lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+    &lt;/nav&gt;
+&lt;/div&gt;</pre>
+                        <pre class="styl">
+.hamburger
+    hamburger(bg: red, style: flat, t: 7px, r: 0, menu: white)
+</pre>
+                    </div>
+                    <div class="result">
+                        <header>
+                            <h4>Hamburger Menu</h4>
+                            <p>
+                                We've worked really hard to make sure you don't have to mess up your markup to get Jeet to do it's thing, but if you want a hamburger menu, you really need to follow the markup format to the left.
+                            </p>
+                            <p>
+                                What's going on? First we're using a non-descript wrapping element (this doesn't have to be <code>.hamburger</code> class since we're just using it as an element to dump our <code>hamburger()</code> mixin). Next we create a <code>&lt;button&gt;</code> with whatever text you want (for accessibility purposes). Finally, we make a normal <code>&lt;nav&gt;</code> element with our links inside.
+                            </p>
+                            <p>
+                                Ok, so that's some pretty clean/semantic markup. Nice! Now let's customize our button, background colors, etc. within the <code>hamburger()</code> mixin. We can use named parameters in Stylus mixins, so since there are a few of them, we're doing that. <code>t</code> and <code>r</code> are shorthand for "top" and "right".
+                            </p>
+                            <p>
+                                When the user goes to your standard mobile size, the menu will collapse into a hamburger style menu.
+                            </p>
+                            <p>
+                                <b>Note:</b> I made this in like 5 minutes so it's not awesome, but I definitely see the value in tricking this out, so over the next few weeks the markup/syntax will change a lot so be sure to check this doc again if it's showing up all weird. We're planning on adding nested navigation, whether you want borders at the bottom of your links, left/right alignment support so you can have your hamburger menu on the left of your page instead of the right, and maybe other stuff. But mostly nested support.
+                            </p>
+                        </header>
+                        <div class="demo">
+                            <div class="hamburger">
+                                <button>Menu</button>
+                                <nav>
+                                    <a href="#">Home</a>
+                                    <a href="#">About</a>
+                                    <a href="#">Contact</a>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </article>
