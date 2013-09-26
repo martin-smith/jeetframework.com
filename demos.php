@@ -14,15 +14,15 @@
     
     <figure>
         <figcaption>
-            <header><a href="<? echo $p; ?>/demo/starter_template">Starter Template</a></header>
+            <header><a href="<? echo $p; ?>/demo/grid">Basic Grid</a></header>
             <p>
-                Very simple layout with: full-width background header, centered content, text logo, links, content area, and hamburger style menu. 
+                We take a look at how far grid systems have come since the time of <a href="http://960.gs" target="_blank">960.gs</a> by demoing Jeet's flexible, ratio-based, grid.
             </p>
         </figcaption>
-        <a href="<? echo $p; ?>/demo/starter_template"><img src="http://placekitten.com/400/300"></a>
+        <a href="<? echo $p; ?>/demo/grid"><img src="img/demo_grid.jpg" alt="A screenshot from the video taken to show Jeet's grid system"></a>
         <nav>
-            <a href="<? echo $p; ?>/demo/starter_template">Demo</a>
-            <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/starter_template">Code</a>
+            <a href="<? echo $p; ?>/demo/grid">Demo</a>
+            <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/grid">Code</a>
             <a href="http://youtube.com">Screencast</a>
         </nav>
     </figure>
