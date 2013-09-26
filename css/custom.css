@@ -804,7 +804,7 @@ footer section ul{float:left;width:58.62266857962697%;margin-left:41.37733142037
 footer section ul:last-child{margin-right:0%}
 footer b{width:220px;float:left}
 footer p{margin-bottom:10px;overflow:hidden}
-.result > div *{-webkit-transition:200ms ease all;-moz-transition:200ms ease all;-o-transition:200ms ease all;-ms-transition:200ms ease all;transition:200ms ease all;background:rgba(0,0,0,0.15)}
+.result > div *{-webkit-transition:200ms ease all;-moz-transition:200ms ease all;-o-transition:200ms ease all;-ms-transition:200ms ease all;transition:200ms ease all;background:url("../img/edit_mixin.png")}
 .result header{margin-bottom:20px;}
 .result header h4{font-size:20px;line-height:26px;margin-top:0;margin-bottom:0;color:#222}
 .result header p{font-size:12px;margin-top:5px;line-height:20px}
