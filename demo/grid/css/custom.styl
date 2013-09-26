@@ -1,0 +1,70 @@
+@import 'jeet'
+
+edit()
+
+body
+    center(800px, 0)
+    text-align center
+
+section
+    @extend $cf
+    margin-top 10px
+    margin-bottom 10px
+
+.twelve
+    width 100%
+.one11
+    div
+        &:nth-child(1)
+            col(1/12)
+        &:nth-child(2)
+            col(11/12)
+.two10
+    div
+        &:nth-child(odd)
+            col(2/12)
+        &:nth-child(even)
+            col(10/12)
+.three9
+    div
+        &:nth-child(1)
+            col(3/12)
+        &:nth-child(2)
+            col(9/12)
+.funky
+    div
+        &:nth-child(1)
+            col(1/12)
+        &:nth-child(2)
+            col(5/12)
+        &:nth-child(3), &:nth-child(4)
+            col(3/12)
+
+.jeetcool
+    div
+        &:nth-child(1)
+            col(.5)
+        &:nth-child(2)
+            col(333/999)
+        &:nth-child(3)
+            col(1/6)
+
+.blocks
+    div
+        col(1/8, cycle: 8)
+        margin-bottom 10px 
+
+.one11, .two10, .three9
+    background blue
+    div
+        col(cycle:2)
+        margin-bottom 10px
+
+
+
+// Mobile
+bp()
+.blocks
+    div
+        col(1/2, uncycle:8, cycle:2)
+endbp()
