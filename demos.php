@@ -23,7 +23,7 @@
         <nav>
             <a href="<? echo $p; ?>/demo/grid">Demo</a>
             <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/grid">Code</a>
-            <a href="http://youtube.com">Screencast</a>
+            <a href="http://youtu.be/sTOaBV2ge10">Screencast</a>
         </nav>
     </figure>
     

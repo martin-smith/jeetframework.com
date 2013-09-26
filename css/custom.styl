@@ -309,6 +309,8 @@ code
         img
             background #fff
             margin-bottom 10px
+            width 100%
+            border-radius 10px
         nav
             @extend $cf
             a
@@ -326,6 +328,20 @@ code
 
 
 // Mobile
+bp(1000px)
+.demos figure
+    col(1/2)
+endbp()
+bp(730px)
+.demos > header
+    padding-bottom 10px
+    margin-bottom 20px
+.demos figure
+    center(400px)
+    padding-bottom 20px
+    border-bottom 1px solid #eee
+    margin-bottom 20px
+endbp()
 bp(800px)
 header#top > div, section.basics article .result
     stack()
