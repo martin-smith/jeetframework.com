@@ -51,6 +51,9 @@
                 <p>
                     Here's a recreation of Bootstrap's "<a href="http://getbootstrap.com/getting-started/#examples" target="_blank">Starter Template</a>" example complete with a hamburger menu (shrink your viewport to see it in action).
                 </p>
+                <p>
+                    We'll gladly/quickly recreate any other demo by any other framework. Just Tweet <a href="https://twitter.com/jeetframework">@JeetFramework</a> preferably with the #jeetshowdown tag so we can track them.
+                </p>
             </figcaption>
             <a href="<? echo $p; ?>/demo/bootstrap"><img src="img/demo_bootstrap.jpg" alt="A screenshot of a website with a off-black navigation bar, some links, and a bit of text centered in the screen"></a>
             <nav>
