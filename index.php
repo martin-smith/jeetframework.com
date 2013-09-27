@@ -463,7 +463,7 @@ a
 &lt;/div&gt;</pre>
                         <pre class="styl">
 .hamburger
-    hamburger(bg: red, style: flat, bp: 1200px)
+    hamburger(bg: red, style: flat, bp: 1200px, t:10px)
 </pre>
                     </div>
                     <div class="result">
@@ -484,7 +484,11 @@ a
                                 </code>
                             </p>
                             <p>
-                                <code>bp</code> stands for breakpoint. This is the width at which your menu will collapse.
+                                <code>bp</code> stands for breakpoint. This is the width at which your menu will collapse.<br>
+                                <code>t</code> stands for top. This is how far off the top of your button your nav will appear. If you want your button repositioned, define that in your <code>.styl</code>.
+                            </p>
+                            <p>
+                                Also, it should be noted that the hamburger menu creates absolutely positioned elements so assign their container <code>position: relative</code> to make sure they show up correctly.
                             </p>
                             <p>
                                 <b>Note:</b> Over the next few weeks we'll be adding support for nested menus and a smooth <code>slideToggle</code> transition. This may change the syntax, so if you create a new project and your hamburger menus aren't working as expected, check back here to make sure you're using the current syntax.
