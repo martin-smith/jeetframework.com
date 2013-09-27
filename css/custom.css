@@ -824,7 +824,8 @@ code{padding:3px 4px;color:#df5c33;background-color:#f5f5f5;border:1px solid #e1
 .demos figure figcaption{font-weight:normal;font-style:normal;text-align:left}
 .demos figure header{font-weight:bold;font-size:14px;margin-bottom:5px;}
 .demos figure header a{color:#222;text-decoration:none}
-.demos figure p{font-size:12px;line-height:18px;color:#777}
+.demos figure p{font-size:12px;line-height:18px;color:#777;margin-bottom:5px;}
+.demos figure p:last-child{margin-bottom:0}
 .demos figure img{background:#fff;margin-bottom:10px;width:100%;-webkit-border-radius:10px;-moz-border-radius:10px;-o-border-radius:10px;-ms-border-radius:10px;border-radius:10px;}
 .demos figure nav a{float:left;width:33.33333333333333%;margin-left:0%;margin-right:0%;font-size:13px;padding:9.945px 21.879px;-webkit-border-radius:3.000002307694083px;-moz-border-radius:3.000002307694083px;-o-border-radius:3.000002307694083px;-ms-border-radius:3.000002307694083px;border-radius:3.000002307694083px;background-color:#f8ca5c;color:#494949;color:rgba(73,73,73,0.95);cursor:pointer;font-weight:bold;font-family:"Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;line-height:1;text-align:center;text-decoration:none;display:inline-block;}
 .demos figure nav a:hover,.demos figure nav a:focus{background-color:#f7c54c;color:#474747;color:rgba(71,71,71,0.95)}
@@ -832,6 +833,7 @@ code{padding:3px 4px;color:#df5c33;background-color:#f5f5f5;border:1px solid #e1
 .demos figure nav a:first-child{border-top-right-radius:0;border-bottom-right-radius:0}
 .demos figure nav a:nth-child(2){-webkit-border-radius:0;-moz-border-radius:0;-o-border-radius:0;-ms-border-radius:0;border-radius:0;}
 .demos figure nav a:last-child{border-top-left-radius:0;border-bottom-left-radius:0}
+.demos figure nav a:only-child{-webkit-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}
 @media all and (max-width: 1000px) {
 .demos figure{float:left;width:48.5%;margin-left:0%;margin-right:3%;}
 .demos figure:last-child{margin-right:0%}
