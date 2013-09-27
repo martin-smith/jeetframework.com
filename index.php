@@ -494,9 +494,9 @@ a
                             <div class="hamburger">
                                 <button>Menu</button>
                                 <nav>
-                                    <a href="#">Home</a>
-                                    <a href="#">About</a>
-                                    <a href="#">Contact</a>
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
                                 </nav>
                             </div>
                         </div>
