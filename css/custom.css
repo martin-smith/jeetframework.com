@@ -820,7 +820,7 @@ code{padding:3px 4px;color:#df5c33;background-color:#f5f5f5;border:1px solid #e1
 .demos > header{text-align:center;width:auto;max-width:700px;float:none !important;display:block;margin-right:auto !important;margin-left:auto !important;padding-left:15px;padding-right:15px;margin-top:20px;padding-bottom:20px;border-bottom:1px solid #eee;margin-bottom:40px;}
 .demos > header h1{font-size:40px;font-weight:bold;letter-spacing:-.035em;color:#222;margin-bottom:10px}
 .demos > header p{line-height:22px;margin-bottom:20px}
-.demos figure{-webkit-animation:fadeInDown 400ms;-moz-animation:fadeInDown 400ms;-o-animation:fadeInDown 400ms;-ms-animation:fadeInDown 400ms;animation:fadeInDown 400ms;float:left;width:31.33333333333333%;margin-left:0%;margin-right:3%;display:-moz-inline-stack;display:inline-block;vertical-align:baseline;zoom:1;*display:inline;*vertical-align:auto;margin-bottom:20px;}
+.demos figure{-webkit-animation:fadeInDown 400ms;-moz-animation:fadeInDown 400ms;-o-animation:fadeInDown 400ms;-ms-animation:fadeInDown 400ms;animation:fadeInDown 400ms;float:left;width:31.33333333333333%;margin-left:0%;margin-right:3%;position:relative;display:-moz-inline-stack;display:inline-block;vertical-align:baseline;zoom:1;*display:inline;*vertical-align:auto;margin-bottom:40px;}
 .demos figure:nth-child(3n){margin-right:0%;float:right}
 .demos figure img{display:block;padding:4px;-webkit-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;border-radius:3px;border:1px solid rgba(214,214,214,0.6)}
 .demos figure figcaption{padding:10px 0;text-align:center;font-style:italic}
