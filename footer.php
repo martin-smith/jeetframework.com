@@ -64,7 +64,7 @@
                     $(this).slideUp('fast');
                 });
                 $('.hamburger > button').click(function() {
-                    $('.hamburger > nav').toggle();
+                    $('.hamburger > nav').toggleAttr('style', 'display: block !important;', 'display: none;')
                 });
                 
                 // Fade in/out top button

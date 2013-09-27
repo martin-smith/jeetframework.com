@@ -1,0 +1,49 @@
+@import 'jeet'
+
+html
+    fs(14px)
+#top
+    background #222
+    margin-bottom 30px
+    > div
+        center(800px)
+    a
+        color #999
+        text-decoration none
+        height 55px
+        line-height 55px
+        display inline-block  
+        padding 0 20px
+        bold()
+        &:hover
+            color #fff
+        &.active
+            color #FfF
+            background #080808
+    .logo
+        fs(18px)
+        margin-left -20px
+        position relative
+        z-index 11
+    .hamburger
+        display inline-block
+        hamburger(bg: #444, t: 10px, r: 10px)
+section
+    center(800px)
+    article
+        text-align center
+    header
+        fs(36px)
+        color #333
+        letter-spacing -.025em
+        bold()
+        font-family helvetica-neue
+        margin-bottom 20px
+    p
+        fs(20px)
+        line-height 28px
+
+// Mobile
+bp()
+
+endbp()

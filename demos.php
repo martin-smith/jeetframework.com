@@ -8,7 +8,7 @@
             Most frameworks out there assume you're going to do XYZ and force certain markup/styling on you. Jeet doesn't assume anything about your workflow. This gives you power without saddling you with the burden of having to overwrite anything.
         </p>
         <p>
-            These examples are from <a href="http://getbootstrap.com/getting-started/#examples" target="_blank">Bootstrap 3</a>. If you have another framework you'd like to see Jeet tested against, just Tweet <a href="https://twitter.com/jeetframework">@JeetFramework</a> and I'll gladly recreate a simple layout the Jeet way.
+            If you know of a framework you'd like to see stacked up to Jeet, then just Tweet <a href="https://twitter.com/jeetframework">@JeetFramework</a> and I'll gladly recreate a simple layout the Jeet way.
         </p>
     </header>
     
@@ -30,6 +30,24 @@
         <figure>
             <figcaption>
                 <header><a href="http://youtu.be/P58-OCVnJ20">Browser Support</a></header>
+                <p>
+                    Most frameworks claim to support XYZ browsers, but there's always half the stuff they support, half the stuff kinda works, and the third half of stuff is just flat out broken. We want to be honest about our support so you know exactly where things start to fall off.
+                </p>
+                <p>
+                    In this screencast I'll show you exactly what Jeet 3 can and can't do as of September 26th, 2013.
+                </p>
+                <p>
+                    Long story short, we're IE8+ but just be wary of the cycle param and use conditional classes to fix stuff that's broken.
+                </p>
+            </figcaption>
+            <a href="http://youtu.be/P58-OCVnJ20"><img src="img/demo_browser_support.jpg" alt="Jeet 3's grid displayed perfectly in IE7"></a>
+            <nav>
+                <a href="http://youtu.be/P58-OCVnJ20">Screencast</a>
+            </nav>
+        </figure>
+        <figure>
+            <figcaption>
+                <header><a href="http://youtu.be/P58-OCVnJ20">Starter Template</a></header>
                 <p>
                     Most frameworks claim to support XYZ browsers, but there's always half the stuff they support, half the stuff kinda works, and the third half of stuff is just flat out broken. We want to be honest about our support so you know exactly where things start to fall off.
                 </p>
