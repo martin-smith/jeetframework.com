@@ -56,34 +56,10 @@
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.0.3.min.js"><\/script>')</script>
         <!--<![endif]-->
-        <script src="js/vendor/jquery.placeholder.min.js"></script>
+        <script src="js/vendor/jeet.js"></script>
         <script src="js/plugins.js"></script>
-        <script>
-            $(function(){
-                $('input, textarea').placeholder();
-                $('.chromeframe').on('click', function() {
-                    $(this).slideUp('fast');
-                });
-                $('.hamburger > button').click(function() {
-                    $('.hamburger > nav').toggleAttr('style', 'display: block !important;', 'display: none;')
-                });
-                
-                // Fade in/out top button
-                $(window).scroll(function() {
-                    sT = $(window).scrollTop();
-                    if(sT > 150) {
-                        $('.back_to_top').fadeIn('fast');
-                    } else {
-                        $('.back_to_top').fadeOut('fast');
-                    }
-                });
-                
-                $('a[href="#"]').click(function(e) {
-                    e.preventDefault();
-                });
-                
-            });
-        </script>
+        <script src="js/main.js"></script>
+
         <script type="text/javascript">
 
           var _gaq = _gaq || [];

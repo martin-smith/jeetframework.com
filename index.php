@@ -1,6 +1,6 @@
 <? require_once('header.php'); ?>
             
-            <aside id="sidebar">
+            <aside id="sidebar" jeet-fixed="-140" jeet-pickup="100" jeet-speed="0">
                 <nav>
                     <a href="#basic">Basic</a>
                     <a href="#nested">Nested</a>
