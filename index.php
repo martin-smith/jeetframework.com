@@ -326,7 +326,9 @@ edit()</pre>
 &lt;/div&gt;</pre>
                         <pre class="styl">
 div
-    position relative</pre>
+    position relative
+    img
+        span(1/3)</pre>
                     </div>
                     <div class="result">
                         <header>
