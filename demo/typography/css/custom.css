@@ -13,29 +13,30 @@ ul,ol{padding-left:1.4em}
 li,dd{margin-bottom:8.09px}
 pre{font-size:12.944px}
 header * + p{color:#bbb}
-header h1 + p,header h1 + p + p,header h1 + p + p + p{margin-top:-16.18px;margin-bottom:16.18px}
-header h2 + p,header h2 + p + p,header h2 + p + p + p{margin-top:-12.944px;margin-bottom:12.944px}
-header h3 + p,header h3 + p + p,header h3 + p + p + p{margin-top:-9.708px;margin-bottom:9.708px}
-header h4 + p,header h4 + p + p,header h4 + p + p + p{margin-top:-6.472px;margin-bottom:6.472px}
-header h5 + p,header h5 + p + p,header h5 + p + p + p{margin-top:-3.236px;margin-bottom:3.236px}
-header h6 + p,header h6 + p + p,header h6 + p + p + p{margin-top:-3.236px;margin-bottom:3.236px}
-@media all and (max-width: 1000px) {
-html{font-size:12.5px;line-height:18.75px}
-h1{font-size:35px;line-height:37.5px;margin-bottom:12.5px}
-h2{font-size:31.25px;line-height:35px;margin-bottom:10px}
-h3{font-size:27.5px;line-height:32.5px;margin-bottom:7.5px}
-h4{font-size:23.75px;line-height:30px;margin-bottom:5px}
-h5{font-size:20px;line-height:27.5px;margin-bottom:2.5px}
-h6{font-size:16.25px;line-height:25px;margin-bottom:0}
-p,ul,ol,pre,dl{margin-bottom:12.5px}
-li,dd{margin-bottom:6.25px}
-pre{font-size:10px}
-header h1 + p,header h1 + p + p,header h1 + p + p + p{margin-top:-12.5px;margin-bottom:12.5px}
-header h2 + p,header h2 + p + p,header h2 + p + p + p{margin-top:-10px;margin-bottom:10px}
-header h3 + p,header h3 + p + p,header h3 + p + p + p{margin-top:-7.5px;margin-bottom:7.5px}
-header h4 + p,header h4 + p + p,header h4 + p + p + p{margin-top:-5px;margin-bottom:5px}
-header h5 + p,header h5 + p + p,header h5 + p + p + p{margin-top:-2.5px;margin-bottom:2.5px}
-header h6 + p,header h6 + p + p,header h6 + p + p + p{margin-top:-2.5px;margin-bottom:2.5px}
+header h1 + p,header h1 + p + p,header h1 + p + p + p{margin-top:-8.09px}
+header h2 + p,header h2 + p + p,header h2 + p + p + p{margin-top:-6.472px}
+header h3 + p,header h3 + p + p,header h3 + p + p + p{margin-top:-4.854px}
+header h4 + p,header h4 + p + p,header h4 + p + p + p{margin-top:-3.236px}
+header h5 + p,header h5 + p + p,header h5 + p + p + p{margin-top:-1.618px}
+header h6 + p,header h6 + p + p,header h6 + p + p + p{margin-top:-1.618px}
+@media all and (max-width: 705px) {
+html{font-size:14.139999999999999px;line-height:21.209999999999997px}
+h1{font-size:39.592px;line-height:42.419999999999995px;margin-bottom:14.139999999999999px}
+h2{font-size:35.35px;line-height:39.592px;margin-bottom:11.312px}
+h3{font-size:31.107999999999997px;line-height:36.763999999999996px;margin-bottom:8.484px}
+h4{font-size:26.866px;line-height:33.936px;margin-bottom:5.656px}
+h5{font-size:22.624px;line-height:31.107999999999997px;margin-bottom:2.828px}
+h6{font-size:18.381999999999998px;line-height:28.279999999999998px;margin-bottom:0}
+p,ul,ol,pre,dl{margin-bottom:14.139999999999999px}
+li,dd{margin-bottom:7.069999999999999px}
+pre{font-size:11.312px}
+header * + p{color:#bbb}
+header h1 + p,header h1 + p + p,header h1 + p + p + p{margin-top:-7.069999999999999px}
+header h2 + p,header h2 + p + p,header h2 + p + p + p{margin-top:-5.656px}
+header h3 + p,header h3 + p + p,header h3 + p + p + p{margin-top:-4.242px}
+header h4 + p,header h4 + p + p,header h4 + p + p + p{margin-top:-2.828px}
+header h5 + p,header h5 + p + p,header h5 + p + p + p{margin-top:-1.414px}
+header h6 + p,header h6 + p + p,header h6 + p + p + p{margin-top:-1.414px}
 }
 body,.cf,.chromeframe p{zoom:1;}
 body:before,.cf:before,.chromeframe p:before,body:after,.cf:after,.chromeframe p:after{content:"";display:table}
