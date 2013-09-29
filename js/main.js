@@ -18,11 +18,11 @@ $(function() {
     var setPerfectScroll = function() {
         s = $('#sidebar');
         if($(window).width() > 800) {
-            s.perfectScrollbar().css('height', '400px');
+            s.perfectScrollbar().css('height', '415px');
         } else {
             s.perfectScrollbar('destroy').css('height', 'auto');
         }
-    }
+    };
     setPerfectScroll();
     $(window).resize(function() {
         setPerfectScroll();
