@@ -322,34 +322,25 @@ edit()</pre>
                     <div class="code">
                         <pre class="html">
 &lt;div&gt;
-    &lt;img src=&quot;http://placekitten.com/200/100&quot;&gt;
+    &lt;img src=&quot;http://placekitten.com/200/100&quot; class=&quot;midway-vertical midway-horizontal&quot;&gt;
 &lt;/div&gt;</pre>
                         <pre class="styl">
 div
-    align(both)</pre>
+    position relative</pre>
                     </div>
                     <div class="result">
                         <header>
-                            <h4>Vertical, Horizontal, and Both Centering with Flexbox</h4>
+                            <h4>Vertical, Horizontal, and Both Centering with <a href="https://github.com/BrandonJacoby/Midway.js">Midway.js</a></h4>
                             <p>
-                                <b>Caution!</b> Flexbox is experimental as crap. Apparently this isn't just broken in oldIE, it's broken in FF. We're working on fixing this, but for now don't use it.
+                                Originally we were trying to use Flexbox for all our centering purposes, but it was buggy as hell and browser support was a joke if we're being nice.
                             </p>
                             <p>
-                                Vertically centering sucks. It's always sucked. One of the best things about Flexbox is it makes this easy.
-                            </p>
-                            <p>
-                                Naturally, IE9 and below can't support Flexbox for crap, but this solution works very semantically for all other browsers. In short, don't use it for anything super important, but if you don't care if IE8-9 users don't have a perfectly aligned logo, then it's all good baby.
-                            </p>
-                            <p>
-                                To be honest, I'd only use it for vertically centering. There are easy ways to horizontally center something, but it was easy to add horizontal centering, so I'll leave it up to you to make the right decision about how you feel about oldIE users.
-                            </p>
-                            <p>
-                                <b>Options:</b> <code>vertical</code> or <code>v</code>, <code>horizontal</code> or <code>h</code>, <code>both</code> or <code>b</code>
+                                Then we stumbled on this little beautiful jQuery plugin called Midway written by <a href="https://twitter.com/brandon_jacoby">Brandon Jacoby</a> and fell in love. Yes, you have to add a class or two to an element, and it just works perfectly as expected - it's even responsive. Just make sure your containing element has <code>position: relative</code> and you're all set!
                             </p>
                         </header>
                         <div class="demo">
                             <div>
-                                <img src="http://placekitten.com/200/100">
+                                <img src="http://placekitten.com/200/100" class="midway-vertical midway-horizontal">
                             </div>
                         </div>
                     </div>
