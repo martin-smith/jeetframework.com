@@ -12,7 +12,7 @@
         </p>
     </header>
     
-    <div>
+    <div class="row">
         <figure>
             <figcaption>
                 <header><a href="<? echo $p; ?>/demo/grid">Basic Grid</a></header>
@@ -72,7 +72,7 @@
         </figure>
     </div>
     
-    <div>
+    <div class="row">
         <figure>
             <figcaption>
                 <header><a href="<? echo $p; ?>/demo/nested">Nested Grids</a></header>
