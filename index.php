@@ -33,7 +33,7 @@ article
                     </div>
                     <div class="result">
                         <header>
-                            <h4>Basic</h4>
+                            <h4>Basic 2</h4>
                             <p>
                                 It's that easy. But look carefully at the gutter between these two elements and, say, the gutters between the navigation buttons at the top of the page. <a href="http://youtu.be/ueZ6tvqhk8U?t=16s" target="_blank">One of these things is not like the other</a>! It's because we're using percentage-based gutters. So 2% of a 1000px container is going to be bigger than 2% of a 100px container. It works, but it effectively defeats the whole purpose of using grids since they're meant to be uniform.
                             </p>
