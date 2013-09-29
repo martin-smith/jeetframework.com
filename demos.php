@@ -19,6 +19,12 @@
                 <p>
                     We take a look at how far grid systems have come since the time of <a href="http://960.gs" target="_blank">960.gs</a> by demoing Jeet's flexible, ratio-based, grid.
                 </p>
+                <p>
+                    We've borrowed from the brilliant Harry Roberts (read the "<a href="http://csswizardry.com/2013/02/responsive-grid-systems-a-solution/">Building the grid system</a>" section) and decided that having to do math in your head was for suckers. Smart suckers, but suckers none-the-less. So we give you the option of defining your columns in fractions (or decimals) as you would objects in real life.
+                </p>
+                <p>
+                    As an example, say you wanted <code>&lt;aside&gt;</code> to take up a quarter of it's containing element. Just say <code>col(1/4)</code>. Want an <code>&lt;article&gt;</code> to take up the remaining space? Just say <code>col(3/4)</code>. Nice huh? It gets a bit more complicated for nested elements (if you want consistent gutters - you do, they're pretty, watch the nested grids screencast).
+                </p>
             </figcaption>
             <a href="<? echo $p; ?>/demo/grid"><img src="img/demo_grid.jpg" alt="A screenshot from the video taken to show Jeet's grid system"></a>
             <nav>
