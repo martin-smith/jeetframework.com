@@ -1,0 +1,55 @@
+@import 'jeet'
+
+html
+    background lighten(red, 30%)
+    min-height 2000px 
+
+section
+    center(800px)
+    margin-top 30px
+header#top
+    background #666
+    color #222
+    margin-bottom 30px
+    height 60px
+    text-align center
+    h1
+        col(1/4)
+        margin-bottom 0
+        line-height 60px
+    nav
+        col(3/4)
+        a
+            col(1/4)
+            background #FFF
+            height 60px
+            line-height 60px
+            text-decoration none
+header, section div
+    @extend $cf
+aside
+    col(1/4)
+    // shift(3/4)
+    background blue
+    text-align center
+    h4
+        padding 10px 10px 0
+    a
+        padding 10px
+        text-decoration none
+        display block
+        color #FFF
+        &:hover
+            color #FFF
+            background darken(blue, 10%)  
+article
+    col(3/4)
+    // shift(-1/4)
+    background #FFF
+    padding 10px 30px 20px
+    
+
+// Mobile
+bp()
+
+endbp()
