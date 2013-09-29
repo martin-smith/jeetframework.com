@@ -18,7 +18,7 @@ major_twelfth = 3
 double_octave = 4
 
 // Set your ratio
-typography_ratio = minor_seventh
+typography_ratio = golden
 mobile_ratio = major_third
 
 ms(numbawang = 1, ratio = typography_ratio)
@@ -100,7 +100,7 @@ header
             margin-bottom ms(2)
 
 // Mobile
-bp()
+bp(1000px)
 ms(numbawang = 1, ratio = mobile_ratio)
     return (numbawang * ratio)px
 html

@@ -80,11 +80,31 @@
                     A few notable standouts that have done a great job at dodging this problem and providing consistent gutters as you nest are: <a href="http://neat.bourbon.io">Bourbon Neat</a>, <a href="http://shelvesgrid.org">Shelves</a>, and <a href="http://singularity.gs">Singularity.gs</a>. That said, I feel Jeet's grid system is more flexible than the first two and more intuitive than the last. It's the perfect combination of power and ease.
                 </p>
             </figcaption>
-            <a href="<? echo $p; ?>/demo/bootstrap"><img src="img/demo_nested.jpg" alt="Screenshot of light gray blocks scattered around in a layout fashion where darker blocks represent deeper nested elements"></a>
+            <a href="<? echo $p; ?>/demo/nested"><img src="img/demo_nested.jpg" alt="Screenshot of light gray blocks scattered around in a layout fashion where darker blocks represent deeper nested elements"></a>
             <nav>
                 <a href="<? echo $p; ?>/demo/nested">Demo</a>
                 <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/nested">Code</a>
                 <a href="http://youtu.be/lyf6236j-4s">Screencast</a>
+            </nav>
+        </figure>
+        <figure>
+            <figcaption>
+                <header><a href="<? echo $p; ?>/demo/typography">Typography</a></header>
+                <p>
+                    So typography is a big pain in the ass. Modular scale is confusing, and vertical rhythms take an incredibly long time to set up and usually just end up breaking at some point anyway.
+                </p>
+                <p>
+                    That said, typography isn't something we should just ignore. We've namespaced the modular scale ratios, turned them into an easy to use, versatile mixin, and set up some beautiful and incredibly flexible defaults complete with a few settings for which modular scale ratio to use on desktop and mobile.
+                </p>
+                <p>
+                    This is pretty handy. If you're using Stylus feel free to <a href="https://github.com/CorySimmons/jeet/blob/master/css/typography.styl">grab it</a> for whatever project you want.
+                </p>
+            </figcaption>
+            <a href="<? echo $p; ?>/demo/typography"><img src="img/demo_typography.jpg" alt="Some beautiful headers and paragraphs stacked on top of each other that get smaller as the page goes down"></a>
+            <nav>
+                <a href="<? echo $p; ?>/demo/typography">Demo</a>
+                <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/typography">Code</a>
+                <a href="http://youtu.be/JbSyeuj06jk">Screencast</a>
             </nav>
         </figure>
     </div>

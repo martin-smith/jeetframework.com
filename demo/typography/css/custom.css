@@ -1,25 +1,25 @@
-html{color:#555;font-size:17.78px;font-weight:200;line-height:26.67px;font-family:"Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif}
+html{color:#555;font-size:16.18px;font-weight:200;line-height:24.270000000000003px;font-family:"Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif}
 a{color:#00a6fc;}
 a:hover{color:#0095e3}
 h1,h2,h3,h4,h5,h6,strong,b,dt{color:#222;font-weight:bold}
-h1{font-size:49.784px;line-height:53.34px;margin-bottom:17.78px}
-h2{font-size:44.45px;line-height:49.784px;margin-bottom:14.224px}
-h3{font-size:39.116px;line-height:46.228px;margin-bottom:10.668px}
-h4{font-size:33.782000000000004px;line-height:42.672px;margin-bottom:7.112px}
-h5{font-size:28.448px;line-height:39.116px;margin-bottom:3.556px}
-h6{font-size:23.114px;line-height:35.56px;margin-bottom:0}
-p,ul,ol,pre,dl{margin-bottom:17.78px}
+h1{font-size:45.304px;line-height:48.540000000000006px;margin-bottom:16.18px}
+h2{font-size:40.45px;line-height:45.304px;margin-bottom:12.944px}
+h3{font-size:35.596000000000004px;line-height:42.068000000000005px;margin-bottom:9.708px}
+h4{font-size:30.742px;line-height:38.832px;margin-bottom:6.472px}
+h5{font-size:25.888px;line-height:35.596000000000004px;margin-bottom:3.236px}
+h6{font-size:21.034000000000002px;line-height:32.36px;margin-bottom:0}
+p,ul,ol,pre,dl{margin-bottom:16.18px}
 ul,ol{padding-left:1.4em}
-li,dd{margin-bottom:8.89px}
-pre{font-size:14.224px}
+li,dd{margin-bottom:8.09px}
+pre{font-size:12.944px}
 header * + p{color:#bbb}
-header h1 + p,header h1 + p + p,header h1 + p + p + p{margin-top:-17.78px;margin-bottom:17.78px}
-header h2 + p,header h2 + p + p,header h2 + p + p + p{margin-top:-14.224px;margin-bottom:14.224px}
-header h3 + p,header h3 + p + p,header h3 + p + p + p{margin-top:-10.668px;margin-bottom:10.668px}
-header h4 + p,header h4 + p + p,header h4 + p + p + p{margin-top:-7.112px;margin-bottom:7.112px}
-header h5 + p,header h5 + p + p,header h5 + p + p + p{margin-top:-3.556px;margin-bottom:3.556px}
-header h6 + p,header h6 + p + p,header h6 + p + p + p{margin-top:-3.556px;margin-bottom:3.556px}
-@media all and (max-width: 705px) {
+header h1 + p,header h1 + p + p,header h1 + p + p + p{margin-top:-16.18px;margin-bottom:16.18px}
+header h2 + p,header h2 + p + p,header h2 + p + p + p{margin-top:-12.944px;margin-bottom:12.944px}
+header h3 + p,header h3 + p + p,header h3 + p + p + p{margin-top:-9.708px;margin-bottom:9.708px}
+header h4 + p,header h4 + p + p,header h4 + p + p + p{margin-top:-6.472px;margin-bottom:6.472px}
+header h5 + p,header h5 + p + p,header h5 + p + p + p{margin-top:-3.236px;margin-bottom:3.236px}
+header h6 + p,header h6 + p + p,header h6 + p + p + p{margin-top:-3.236px;margin-bottom:3.236px}
+@media all and (max-width: 1000px) {
 html{font-size:12.5px;line-height:18.75px}
 h1{font-size:35px;line-height:37.5px;margin-bottom:12.5px}
 h2{font-size:31.25px;line-height:35px;margin-bottom:10px}
