@@ -1,0 +1,62 @@
+@import 'jeet'
+
+// edit()
+
+html
+    background blue
+
+header#top
+    background #ddd
+    padding 20px 0
+    margin-bottom 20px
+    > div
+        center(1300px, 30px)
+    a.logo
+        col(1/4)
+    nav
+        col(3/4)
+        margin-top 15px
+        a
+            col(1/4)
+            button(red)
+section
+    center(1300px, 30px)
+    padding 20px 30px
+    background #FFF 
+    border-radius 5px
+aside
+    col(1/4)
+    a
+        simple-button(yellow)
+        display block
+        margin-bottom 10px
+article
+    col(3/4)
+    div
+        @extend $cf
+        p
+            col(1/2)
+
+// Mobile
+bp(700px)
+
+html
+    background black
+
+header#top a.logo, header#top nav, aside, article
+    stack()
+
+header#top nav a
+    col(1/2, cycle:2)
+
+header#top nav a, aside
+    margin-bottom 10px
+section
+    border-radius 0
+.kitties
+    img
+        col(1/2, uncycle:3, cycle:2)
+        margin-bottom 10px
+
+
+endbp()
