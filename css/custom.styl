@@ -14,6 +14,11 @@ $button_border
 .row
     @extend $cf
     clear both
+    border-bottom 1px solid #eee
+    margin-bottom 20px
+    &:last-child
+        border-bottom none
+        margin-bottom 0 
 a
     color blue
     &:hover
@@ -388,6 +393,9 @@ footer
             stack()
 #sidebar
     top auto !important
+.row
+    margin-bottom 0
+    border-bottom none 
 endbp()
 
 bp(550px, mf)

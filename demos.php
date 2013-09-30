@@ -53,23 +53,22 @@
         </figure>
         <figure>
             <figcaption>
-                <header><a href="<? echo $p; ?>/demo/bootstrap">Starter Template</a></header>
+                <header><a href="http://youtu.be/piJSoU1vryM">Installation, Overview, and Site Build</a></header>
                 <p>
-                    Here's a recreation of Bootstrap's "<a href="http://getbootstrap.com/getting-started/#examples" target="_blank">Starter Template</a>" example complete with a hamburger menu (shrink your viewport to see it in action).
+                    Installation is incredibly simple; our CLI tool is incredible powerful, yet simple; and site creation with Jeet is so fast it'll blow your socks off.
                 </p>
                 <p>
-                    Compare the markup of the two, then look at how small our <code>custom.styl</code> file is that creates the exact same layout from scratch with better browser support.
-                </p>
-                <p>
-                    We'll gladly/quickly recreate any other demo by any other framework. Just Tweet <a href="https://twitter.com/jeetframework">@JeetFramework</a> preferably with the #jeetshowdown tag so we can track them.
+                    In this tutorial I'll walk you through the entire process. The explanation of almost the entire system takes about 40 minutes, but once you learn it, getting a project started and out the door only takes minutes.
                 </p>
             </figcaption>
-            <a href="<? echo $p; ?>/demo/bootstrap"><img src="img/demo_bootstrap.jpg" alt="A screenshot of a website with a off-black navigation bar, some links, and a bit of text centered in the screen"></a>
+            <a href="<? echo $p; ?>/demo/supafast"><img src="img/demo_supafast.jpg" alt="Screenshot of a site with logo in top left, horizontal nav in top right, sidebar on bottom left with vertical nav, and text area on bottom right"></a>
             <nav>
-                <a href="<? echo $p; ?>/demo/bootstrap">Demo</a>
-                <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/bootstrap">Code</a>
+                <a href="<? echo $p; ?>/demo/supafast">Demo</a>
+                <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/supafast">Code</a>
+                <a href="http://youtu.be/piJSoU1vryM">Screencast</a>
             </nav>
         </figure>
+        
     </div>
     
     <div class="row">
@@ -134,6 +133,28 @@
                 <a href="<? echo $p; ?>/demo/fixed_nav">Demo</a>
                 <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/fixed_nav">Code</a>
                 <a href="http://youtu.be/jehJfFaIx5E">Screencast</a>
+            </nav>
+        </figure>
+    </div>
+    
+    <div class="row">
+        <figure>
+            <figcaption>
+                <header><a href="<? echo $p; ?>/demo/bootstrap">Starter Template</a></header>
+                <p>
+                    Here's a recreation of Bootstrap's "<a href="http://getbootstrap.com/getting-started/#examples" target="_blank">Starter Template</a>" example complete with a hamburger menu (shrink your viewport to see it in action).
+                </p>
+                <p>
+                    Compare the markup of the two, then look at how small our <code>custom.styl</code> file is that creates the exact same layout from scratch with better browser support.
+                </p>
+                <p>
+                    We'll gladly/quickly recreate any other demo by any other framework. Just Tweet <a href="https://twitter.com/jeetframework">@JeetFramework</a> preferably with the #jeetshowdown tag so we can track them.
+                </p>
+            </figcaption>
+            <a href="<? echo $p; ?>/demo/bootstrap"><img src="img/demo_bootstrap.jpg" alt="A screenshot of a website with a off-black navigation bar, some links, and a bit of text centered in the screen"></a>
+            <nav>
+                <a href="<? echo $p; ?>/demo/bootstrap">Demo</a>
+                <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/bootstrap">Code</a>
             </nav>
         </figure>
     </div>
