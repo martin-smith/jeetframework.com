@@ -53,7 +53,7 @@
         </figure>
         <figure>
             <figcaption>
-                <header><a href="http://youtu.be/piJSoU1vryM">Installation, Overview, and Site Build</a></header>
+                <header><a href="<? echo $p; ?>/demo/supafast">Installation, Overview, and Site Build</a></header>
                 <p>
                     Installation is incredibly simple; our CLI tool is incredible powerful, yet simple; and site creation with Jeet is so fast it'll blow your socks off.
                 </p>
