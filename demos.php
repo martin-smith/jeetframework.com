@@ -140,31 +140,6 @@
         </figure>
     </div>
     
-    <div class="row">
-        <figure>
-            <figcaption>
-                <header><a href="<? echo $p; ?>/demo/bootstrap">Starter Template</a></header>
-                <p>
-                    <b>Caution!</b> We're using the <a href="http://jeetframework.com/#hamburger">Hamburger Menu Mixin</a> for this. It's a bit finicky sometimes, doesn't support nested dropdown menus, and uses `position: absolute` whereas `position: relative` would be better as it would push the entire page down. We're currently developing some off canvas support and as part of that we'll rework this in the coming weeks.
-                </p>
-                <p>
-                    Here's a recreation of Bootstrap's "<a href="http://getbootstrap.com/getting-started/#examples" target="_blank">Starter Template</a>" example complete with a hamburger menu (shrink your viewport to see it in action).
-                </p>
-                <p>
-                    Compare the markup of the two, then look at how small our <code>custom.styl</code> file is that creates the exact same layout from scratch with better browser support.
-                </p>
-                <p>
-                    We'll gladly/quickly recreate any other demo by any other framework. Just Tweet <a href="https://twitter.com/jeetframework">@JeetFramework</a> preferably with the #jeetshowdown tag so we can track them.
-                </p>
-            </figcaption>
-            <a href="<? echo $p; ?>/demo/bootstrap"><img src="img/demo_bootstrap.jpg" alt="A screenshot of a website with a off-black navigation bar, some links, and a bit of text centered in the screen"></a>
-            <nav>
-                <a href="<? echo $p; ?>/demo/bootstrap">Demo</a>
-                <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/bootstrap">Code</a>
-            </nav>
-        </figure>
-    </div>
-    
 </section>
 
 <? require_once('footer.php'); ?>

@@ -443,63 +443,6 @@ a
                     </div>
                 </article>
                 
-                <article class="hamburgers" id="hamburger">
-                    <div class="code">
-                        <pre class="html">
-&lt;div class=&quot;hamburger&quot;&gt;
-    &lt;button&gt;Menu&lt;/button&gt;
-    &lt;nav&gt;
-        &lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
-    &lt;/nav&gt;
-&lt;/div&gt;</pre>
-                        <pre class="styl">
-.hamburger
-    hamburger(bg: red, style: flat, bp: 1200px, t:10px)
-</pre>
-                    </div>
-                    <div class="result">
-                        <header>
-                            <h4>Hamburger Menu</h4>
-                            <p>
-                                We've worked really hard to make sure you don't have to mess up your markup to get Jeet to do it's thing, but if you want a hamburger menu, you really need to follow the markup format to the left.
-                            </p>
-                            <p>
-                                What's going on? First we're using a non-descript wrapping element (this doesn't have to be <code>.hamburger</code> class since we're just using it as an element to dump our <code>hamburger()</code> mixin). Next we create a <code>&lt;button&gt;</code> with whatever text you want (for accessibility purposes). Finally, we make a normal <code>&lt;nav&gt;</code> element with our links inside.
-                            </p>
-                            <p>
-                                Ok, so that's some pretty clean/semantic markup. Nice! Now let's customize our button, background colors, etc. within the <code>hamburger()</code> mixin. We can use named parameters in Stylus mixins, so since there are a few of them, we're doing that. Here are all the params:
-                            </p>
-                            <p>
-                                <code>
-                                    hamburger(bg = #222, style = normal[flat], align = right[left], top = 0, radius = 3px, menu = white[black], bp = 705px)
-                                </code>
-                            </p>
-                            <p>
-                                <code>bp</code> stands for breakpoint. This is the width at which your menu will collapse.<br>
-                                <code>t</code> stands for top. This is how far off the top of your button your nav will appear. If you want your button repositioned, define that in your <code>.styl</code>.
-                            </p>
-                            <p>
-                                Also, it should be noted that the hamburger menu creates absolutely positioned elements so assign their container <code>position: relative</code> to make sure they show up correctly.
-                            </p>
-                            <p>
-                                <b>Note:</b> Over the next few weeks we'll be adding support for nested menus and a smooth <code>slideToggle</code> transition. This may change the syntax, so if you create a new project and your hamburger menus aren't working as expected, check back here to make sure you're using the current syntax.
-                            </p>
-                        </header>
-                        <div class="demo">
-                            <div class="hamburger">
-                                <button>Menu</button>
-                                <nav>
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                
             </section>
             
 <? require_once('footer.php'); ?>
