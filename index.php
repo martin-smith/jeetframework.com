@@ -10,11 +10,9 @@
                     <a href="#ordering">Ordering</a>
                     <a href="#centering">Centering</a>
                     <a href="#editing">Editing</a>
-                    <a href="#aligning">Aligning</a>
                     <a href="#mobile">Mobile</a>
                     <a href="#stack">Stack</a>
                     <a href="#ui">UI</a>
-                    <a href="#hamburger">Hamburger</a>
                 </nav>
             </aside>
             
@@ -314,36 +312,6 @@ edit()</pre>
                                 </article>
                                 <aside>Sidebar</aside>
                             </section>
-                        </div>
-                    </div>
-                </article>
-                
-                <article class="align" id="aligning">
-                    <div class="code">
-                        <pre class="html">
-&lt;div&gt;
-    &lt;img src=&quot;http://placekitten.com/200/100&quot; class=&quot;midway-vertical midway-horizontal&quot;&gt;
-&lt;/div&gt;</pre>
-                        <pre class="styl">
-div
-    position relative
-    img
-        span(1/3)</pre>
-                    </div>
-                    <div class="result">
-                        <header>
-                            <h4>Vertical, Horizontal, and Both Centering with <a href="https://github.com/BrandonJacoby/Midway.js">Midway.js</a></h4>
-                            <p>
-                                Originally we were trying to use Flexbox for all our centering purposes, but it was buggy as hell and browser support was a joke if we're being nice.
-                            </p>
-                            <p>
-                                Then we stumbled on this little beautiful jQuery plugin called Midway written by <a href="https://twitter.com/brandon_jacoby">Brandon Jacoby</a> and fell in love. Yes, you have to add a class or two to an element, and it just works perfectly as expected - it's even responsive. Just make sure your containing element has <code>position: relative</code> and you're all set!
-                            </p>
-                        </header>
-                        <div class="demo">
-                            <div>
-                                <img src="http://placekitten.com/200/100" class="midway-vertical midway-horizontal">
-                            </div>
                         </div>
                     </div>
                 </article>
