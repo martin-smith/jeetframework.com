@@ -112,32 +112,6 @@
                 <a href="http://youtu.be/JbSyeuj06jk">Screencast</a>
             </nav>
         </figure>
-        <figure>
-            <figcaption>
-                <header><a href="<? echo $p; ?>/demo/fixed_nav">Sticky Elements</a></header>
-                <p>
-                    <b>Caution!</b> I'm not great at JS so the plugin has a leak in it somewhere that only affects Firefox but will dramatically slow down FF user's scroll speed. Probably best to avoid using this for now until we get the <a href="https://github.com/CorySimmons/jeet/issues/68">code refactored</a>.
-                </p>
-                <p>
-                    Couldn't find a plugin that would fix elements relative to their container, so we made our own sticky plugin.
-                </p>
-                <p>
-                    Slap both <code>jeet-fixed</code> and <code>jeet-pickup</code> on any element, assign some values (start off with <code>="0"</code> for both while you get a feel for things), and even set <code>jeet-speed</code> (accepts CSS transition speeds like 400ms or 3s).
-                </p>
-                <p>
-                    <code>pickup</code> will activate/deactivate <code>fixed</code>'s top offset. Keep in mind that you can set <code>fixed</code> to a negative value equal to the space between it and the top of the viewport on load to get it to stick to the top of the viewport.
-                </p>
-                <p>
-                    It's a bit tricky, but it gives you a lot of power wrapped up in some easy-to-use attributes. Check out the screencast below to learn more.
-                </p>
-            </figcaption>
-            <a href="<? echo $p; ?>/demo/fixed_nav"><img src="img/demo_sticky.jpg" alt="A basic website mockup with a light red background some white blocks, and a blue sidebar that will stick to it's position as the user scrolls"></a>
-            <nav>
-                <a href="<? echo $p; ?>/demo/fixed_nav">Demo</a>
-                <a href="https://github.com/CorySimmons/jeetframework.com/tree/master/demo/fixed_nav">Code</a>
-                <a href="http://youtu.be/jehJfFaIx5E">Screencast</a>
-            </nav>
-        </figure>
     </div>
     
 </section>
