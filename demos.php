@@ -116,6 +116,9 @@
             <figcaption>
                 <header><a href="<? echo $p; ?>/demo/fixed_nav">Sticky Elements</a></header>
                 <p>
+                    <b>Caution!</b> I'm not great at JS so the plugin has a leak in it somewhere that only affects Firefox but will dramatically slow down FF user's scroll speed. Probably best to avoid using this for now until we get the <a href="https://github.com/CorySimmons/jeet/issues/68">code refactored</a>.
+                </p>
+                <p>
                     Couldn't find a plugin that would fix elements relative to their container, so we made our own sticky plugin.
                 </p>
                 <p>
@@ -141,6 +144,9 @@
         <figure>
             <figcaption>
                 <header><a href="<? echo $p; ?>/demo/bootstrap">Starter Template</a></header>
+                <p>
+                    <b>Caution!</b> We're using the <a href="http://jeetframework.com/#hamburger">Hamburger Menu Mixin</a> for this. It's a bit finicky sometimes, doesn't support nested dropdown menus, and uses `position: absolute` whereas `position: relative` would be better as it would push the entire page down. We're currently developing some off canvas support and as part of that we'll rework this in the coming weeks.
+                </p>
                 <p>
                     Here's a recreation of Bootstrap's "<a href="http://getbootstrap.com/getting-started/#examples" target="_blank">Starter Template</a>" example complete with a hamburger menu (shrink your viewport to see it in action).
                 </p>
