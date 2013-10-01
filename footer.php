@@ -59,7 +59,6 @@
         <script src="js/vendor/jeet.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
         <script type="text/javascript">
 
           var _gaq = _gaq || [];
