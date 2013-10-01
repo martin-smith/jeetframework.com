@@ -30,7 +30,7 @@
                     </div>
                     <div class="result">
                         <div class="vid_wrap">
-                            <iframe width="640" height="480" src="//www.youtube.com/embed/dcCTDAL7mi0" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="640" height="480" src="//www.youtube.com/embed/dcCTDAL7mi0&hd=1" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </article>
