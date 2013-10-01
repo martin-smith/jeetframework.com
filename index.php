@@ -18,6 +18,23 @@
             
             <section class="basics">
                 
+                <article>
+                    <div class="code" id="frontpage_head">
+                        <h1>Hi there! I'm Jeet</h1>
+                        <p>
+                            I make short work of creating responsive, semantic, flexible, fun, websites.
+                        </p>
+                        <p>
+                            Grab some popcorn and check out the video to get a feel for how I work.
+                        </p>
+                    </div>
+                    <div class="result">
+                        <div class="vid_wrap">
+                            <iframe width="640" height="480" src="//www.youtube.com/embed/dcCTDAL7mi0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </article>
+                
                 <article class="basic" id="basic">
                     <div class="code">
                         <pre class="html">

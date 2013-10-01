@@ -3,6 +3,7 @@
 
 // edit()
 
+
 $roundish
     border-radius 3px
     padding 5px 10px
@@ -220,7 +221,22 @@ section.basics
                 a
                     simple-button(#eee)
                     col(1/3 1.5/2.5 7/8)
-                    
+
+#frontpage_head
+    margin-bottom 20px
+    h1
+        fs(26px)
+        line-height 30px
+        bold()
+        color #222
+        letter-spacing -.035em
+        margin-bottom 10px
+    p
+        line-height 22px
+        margin-bottom 20px
+        &:last-child
+            margin-bottom 10px
+
 footer
     background #eee
     margin-top 20px
@@ -346,6 +362,8 @@ code
 
 // Mobile
 bp(800px)
+#frontpage_head
+    text-align center
 header#top > div, section.basics article .result
     stack()
 header#top a.logo

@@ -126,6 +126,10 @@ section.basics > article.hamburgers nav a{font-size:13px;padding:9.945px 21.879p
 section.basics > article.hamburgers nav a:hover,section.basics > article.hamburgers nav a:focus{background-color:#e2e2e2;color:#474747;color:rgba(71,71,71,0.95)}
 section.basics > article.hamburgers nav a:active{background-color:#d6d6d6}
 section.basics > article.hamburgers nav a:last-child{margin-right:0%}
+#frontpage_head{margin-bottom:20px;}
+#frontpage_head h1{font-size:26px;line-height:30px;font-weight:bold;color:#222;letter-spacing:-.035em;margin-bottom:10px}
+#frontpage_head p{line-height:22px;margin-bottom:20px;}
+#frontpage_head p:last-child{margin-bottom:10px}
 footer{background:#eee;margin-top:20px;}
 footer > div{width:auto;max-width:1300px;float:none !important;display:block;margin-right:auto !important;margin-left:auto !important;padding-left:20px;padding-right:20px;font-size:13px;line-height:19px;padding-top:20px;padding-bottom:20px}
 footer section{float:left;width:87.125%;margin-left:0%;margin-right:3%;}
@@ -165,6 +169,7 @@ code{padding:3px 4px;color:#df5c33;background-color:#f5f5f5;border:1px solid #e1
 .demos figure nav a:last-child{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:3px;border-bottom-right-radius:3px}
 .demos figure nav a:only-child{-webkit-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}
 @media all and (max-width: 800px) {
+#frontpage_head{text-align:center}
 header#top > div,section.basics article .result{display:block;clear:both;float:none !important;width:100%;margin-left:auto !important;margin-right:auto !important;text-align:center;}
 header#top > div:first-child,section.basics article .result:first-child{margin-left:auto}
 header#top > div:last-child,section.basics article .result:last-child{margin-right:auto}
