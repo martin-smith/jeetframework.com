@@ -18,7 +18,7 @@ $(function() {
     $('.vid_wrap').fitVids();
     
     // Relatively Sticky
-    if(navigator.userAgent.toLowerCase().indexOf('firefox') < -1) {
+    if(!(navigator.userAgent.toLowerCase().indexOf('firefox') > -1)) {
         $('#sidebar').relativelySticky();
     }
     
