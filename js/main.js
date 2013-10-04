@@ -18,6 +18,8 @@ $(function() {
     $('.vid_wrap').fitVids();
     
     // Relatively Sticky
-    $('#sidebar').relativelySticky();
-
+    if(navigator.userAgent.toLowerCase().indexOf('firefox') < -1) {
+        $('#sidebar').relativelySticky();
+    }
+    
 });
