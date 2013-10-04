@@ -16,5 +16,8 @@ $(function() {
     
     // FitVids
     $('.vid_wrap').fitVids();
+    
+    // Relatively Sticky
+    $('#sidebar').relativelySticky();
 
 });
