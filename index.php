@@ -96,6 +96,8 @@ article
                             <aside>Sidebar</aside>
                             <article>Article</article>
                         </div>
+                        <p data-height="266" data-theme-id="1612" data-slug-hash="bpHIv" data-user="corysimmons" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/corysimmons/pen/bpHIv'>Jeet 3 - Nested</a> by Cory Simmons (<a href='http://codepen.io/corysimmons'>@corysimmons</a>) on <a href='http://codepen.io'>CodePen</a></p>
+                        <script async src="http://codepen.io/assets/embed/ei.js"></script>
                     </div>
                 </article>
                 
@@ -139,6 +141,8 @@ article
                             <div class="block">Block 6</div>
                             <div class="block">Block 7</div>
                         </div>
+                        <p data-height="266" data-theme-id="1612" data-slug-hash="hsfue" data-user="corysimmons" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/corysimmons/pen/hsfue'>Jeet 3 - Cycle / Uncycle</a> by Cory Simmons (<a href='http://codepen.io/corysimmons'>@corysimmons</a>) on <a href='http://codepen.io'>CodePen</a></p>
+                        <script async src="http://codepen.io/assets/embed/ei.js"></script>
                     </div>
                 </article>
                 
