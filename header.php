@@ -35,8 +35,8 @@
             <div>
                 <a href="<? echo $p; ?>/" class="logo"><img src="img/jeet_logo.png" alt="Jeet 3"></a>
                 <nav>
+                    <a href="http://bit.ly/jeetfork">Sandbox</a>
                     <a href="<? echo $p; ?>/demos">Demos</a>
-                    <a href="http://roots.cx/axis/">Axis CSS</a>
                     <a href="http://github.com/CorySimmons/jeet">Install</a>
                     <a href="https://github.com/CorySimmons/jeet/archive/master.zip">Download</a>
                 </nav>
