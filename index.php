@@ -12,7 +12,6 @@
                     <a href="#editing">Editing</a>
                     <a href="#mobile">Mobile</a>
                     <a href="#stack">Stack</a>
-                    <a href="#ui">UI</a>
                 </nav>
             </aside>
             
@@ -402,34 +401,6 @@ endbp()
                         <div class="demo">
                             <aside>Sidebar</aside>
                             <article>Article</article>
-                        </div>
-                    </div>
-                </article>
-                
-                <article class="ui" id="ui">
-                    <div class="code">
-                        <pre class="html">
-&lt;a href=&quot;#&quot;&gt;Button&lt;/a&gt;</pre>
-                        <pre class="styl">
-a
-    button(red)
-</pre>
-                    </div>
-                    <div class="result">
-                        <header>
-                            <h4>Flexible/Beautiful UI with Axis CSS</h4>
-                            <p>
-                                We wanted to focus on Jeet being a grid framework but we couldn't find a nice CSS library, and then we stumbled upon the gorgeous and incredibly powerful <a href="http://roots.cx/axis">Axis CSS</a> library.
-                            </p>
-                            <p>
-                                Aside from offering a plethora of shortcut mixins that make writing Stylus seem more like a programming language, Axis offers typography, vertical-rhythm, beautiful gradients, forms, buttons, animation, and so much more. Jeet's friend and Roots/Axis creator, <a href="http://jenius.me">Jeff Escalante</a>, has a nice <a href="http://www.youtube.com/watch?v=Kv6H6mMDeuA">screencast</a> giving you an overview of some of the things Axis can do. 
-                            </p>
-                            <p>
-                                As an example of some of the power Axis offers, most CSS frameworks like Bootstrap &amp; Co. will assume you want to use 5 button colors. Axis will let you pick <b>any</b> color you can imagine and pop out a beautiful button. If you're not into these incredibly subtle/beautiful gradient buttons, then use <code>simple-button()</code> for flat buttons.
-                            </p>
-                        </header>
-                        <div class="demo">
-                            <a href="#">Button</a>
                         </div>
                     </div>
                 </article>
