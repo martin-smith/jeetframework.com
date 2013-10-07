@@ -1,0 +1,33 @@
+@import 'jeet/index'
+
+
+section
+  position: relative;
+  &.one
+    background: url(http://placekitten.com/600/501) no-repeat fixed;
+    background-size: cover;
+  &.two
+    background: url(http://placekitten.com/600/502) no-repeat fixed;
+    background-size: cover;
+  &.three
+    background: url(http://placekitten.com/600/503) no-repeat fixed;
+    background-size: cover;
+
+.padding
+  center(700px)
+  padding: 350px 15px 450px;
+
+article
+  @extend $cf;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+p
+  col(1/2)
+  margin-bottom: 0;
+
+
+// Mobile
+bp()
+
+endbp()
